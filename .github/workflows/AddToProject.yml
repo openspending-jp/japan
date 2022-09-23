@@ -1,0 +1,20 @@
+name: Add Issue to アイデアボックス2.0 Project (Issue Management)
+
+on:
+  issues:
+    types:
+      - opened
+      - transferred
+      - labeled
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.3.0
+        with:
+          # You can target a repository in a different organization
+          # to the issue
+          project-url: https://github.com/orgs/openspending-jp/projects/1
+          github-token: ${{ secrets.GITHUB_TOKEN }}
