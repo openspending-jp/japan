@@ -17,4 +17,4 @@ jobs:
           # You can target a repository in a different organization
           # to the issue
           project-url: https://github.com/orgs/openspending-jp/projects/1
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.AddProjectToken }}
