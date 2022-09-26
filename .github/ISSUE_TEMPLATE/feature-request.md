@@ -3,7 +3,7 @@ name: Feature Request
 about: 機能追加、仕様変更についてのIssueです。
 title: "[FEATURE REQUEST] "
 labels: enhancement
-assignees: ItouTerukazu, turutosiya, Yuutakasan
+assignees: Yuutakasan
 
 ---
 

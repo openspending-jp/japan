@@ -1,8 +1,8 @@
 ---
-name: "Planning Issue"
+name: Planning Issue
 about: 計画検討の為のIssueです。
 title: "[Plan] "
-labels: ''
+labels: plan
 assignees: Yuutakasan
 
 ---
